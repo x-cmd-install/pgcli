@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:53:29Z
+  collectedAt: 2026-09-10T17:48:27Z
 timeline:
   created: 2014-10-12
   lastCommit: 2026-09-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 13377
+  star: 13378
   watcher: 139
   fork: 610
   release: 0
@@ -86,7 +86,7 @@ total:
   commit: 2451
 ---
 path: /home/runner/.x-repo/github.com/dbcli/pgcli
-collectedAt: 2026-09-10T05:53:31Z
+collectedAt: 2026-09-10T17:48:29Z
 loc:
   Python:
     code: 12002
