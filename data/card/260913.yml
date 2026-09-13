@@ -250,3 +250,4 @@ checks:
     details:
       - 'Info: SAST configuration detected: CodeQL'
       - 'Warn: 25 commits out of 28 are checked with a SAST tool'
+---
