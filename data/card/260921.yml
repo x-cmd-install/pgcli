@@ -251,4 +251,3 @@ checks:
       - 'Info: SAST configuration detected: CodeQL'
       - 'Warn: 22 commits out of 26 are checked with a SAST tool'
 ---
-{"id":392340646,"author":{"login":"dbaty","id":471321,"node_id":"MDQ6VXNlcjQ3MTMyMQ==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAX9m2M4XYqSm","tag_name":"v4.7.1","target_commitish":"main","name":"4.7.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-20T06:50:25Z","updated_at":"2026-09-20T06:51:49Z","published_at":"2026-09-20T06:51:49Z","assets":[],"body":"Bug fixes:\r\n----------\r\n* Fix wrong version number that was shown in `pgcli --version` for version 4.7.0.\r\n","reactions":{"total_count":1,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":1,"rocket":0,"eyes":0}}
