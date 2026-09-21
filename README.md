@@ -14,19 +14,19 @@ x install pgcli
 
 ## Code insight
 
-Total: **14,636** lines of code across **92** files in the top 5 languages.
+Total: **14,645** lines of code across **92** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 12,031 | 692 | 2,640 | 76 |
-| ReStructuredText | 1,481 | 0 | 479 | 3 |
+| Python | 12,032 | 692 | 2,640 | 76 |
+| ReStructuredText | 1,489 | 0 | 483 | 3 |
 | Json | 631 | 0 | 0 | 1 |
 | Gherkin | 262 | 0 | 42 | 11 |
 | Toml | 114 | 10 | 13 | 1 |
 
 ## OpenSSF Scorecard
 
-Overall score: **4.7 / 10**
+Overall score: **5 / 10**
 
 Lowest-scoring checks:
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v4.7.0` (2026-09-19)
-- **Last commit**: 2026-09-19
+- **Latest**: `v4.7.1` (2026-09-20)
+- **Last commit**: 2026-09-20
 
 ## Popularity
 
-- **Stars**: 13,394 · **Forks**: 613 · **Open issues**: 746 · **Contributors**: 191
+- **Stars**: 13,393 · **Forks**: 613 · **Open issues**: 746 · **Contributors**: 192
 
 ## Totals (cumulative)
 
-- **Releases**: 1 · **Merged PRs**: 749 · **Open PRs**: 20 · **Closed issues**: 719 · **Open issues**: 27 · **Commits**: 2455
+- **Releases**: 2 · **Merged PRs**: 751 · **Open PRs**: 20 · **Closed issues**: 719 · **Open issues**: 27 · **Commits**: 2458
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 1 | 3 | 14 | 0 | 3 | 13 |
-| last60d | 2026-07-22 | 1 | 13 | 15 | 1 | 3 | 22 |
-| 90d | 2026-06-22 | 1 | 15 | 15 | 1 | 5 | 27 |
-| last180d | 2026-03-24 | 1 | 35 | 18 | 5 | 7 | 50 |
-| 360d | 2025-09-25 | 1 | 53 | 18 | 13 | 7 | 59 |
-| last720d | 2024-09-30 | 1 | 68 | 18 | 28 | 15 | 88 |
+| 30d | 2026-08-22 | 2 | 5 | 14 | 0 | 3 | 16 |
+| last60d | 2026-07-23 | 2 | 15 | 15 | 1 | 3 | 25 |
+| 90d | 2026-06-23 | 2 | 17 | 15 | 1 | 4 | 30 |
+| last180d | 2026-03-25 | 2 | 37 | 18 | 5 | 7 | 53 |
+| 360d | 2025-09-26 | 2 | 55 | 18 | 13 | 7 | 62 |
+| last720d | 2024-10-01 | 2 | 70 | 18 | 28 | 15 | 91 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for pgcli lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T05:59:35Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T06:07:20Z._
