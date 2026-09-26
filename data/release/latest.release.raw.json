@@ -43,13 +43,13 @@
   "body": "Bug fixes:\r\n----------\r\n* Fix wrong version number that was shown in `pgcli --version` for version 4.7.0.\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/dbcli/pgcli/releases/392340646/reactions",
-    "total_count": 3,
-    "+1": 1,
+    "total_count": 5,
+    "+1": 2,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 2,
+    "heart": 3,
     "rocket": 0,
     "eyes": 0
   }
