@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,407 · **Forks**: 612 · **Open issues**: 747 · **Contributors**: 192
+- **Stars**: 13,409 · **Forks**: 612 · **Open issues**: 747 · **Contributors**: 192
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 2 | 3 | 14 | 0 | 3 | 11 |
-| last60d | 2026-07-31 | 2 | 13 | 16 | 1 | 4 | 22 |
-| 90d | 2026-07-01 | 2 | 16 | 16 | 1 | 4 | 30 |
-| last180d | 2026-04-02 | 2 | 34 | 19 | 5 | 8 | 50 |
-| 360d | 2025-10-04 | 2 | 55 | 19 | 13 | 8 | 62 |
-| last720d | 2024-10-09 | 2 | 70 | 19 | 28 | 16 | 90 |
+| 30d | 2026-08-31 | 2 | 3 | 14 | 0 | 3 | 11 |
+| last60d | 2026-08-01 | 2 | 13 | 16 | 1 | 4 | 22 |
+| 90d | 2026-07-02 | 2 | 16 | 16 | 1 | 4 | 30 |
+| last180d | 2026-04-03 | 2 | 33 | 18 | 5 | 8 | 50 |
+| 360d | 2025-10-05 | 2 | 55 | 19 | 13 | 8 | 62 |
+| last720d | 2024-10-10 | 2 | 70 | 19 | 28 | 16 | 90 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for pgcli lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:45:55Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:29:44Z._
