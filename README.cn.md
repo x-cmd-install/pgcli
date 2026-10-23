@@ -57,12 +57,30 @@ x install pgcli
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 8 | 0 | 0 | 2 |
-| last60d | 2026-08-23 | 2 | 7 | 20 | 1 | 3 | 22 |
-| 90d | 2026-07-24 | 2 | 17 | 21 | 2 | 3 | 27 |
-| last180d | 2026-04-25 | 2 | 28 | 23 | 5 | 7 | 45 |
-| 360d | 2025-10-27 | 2 | 57 | 24 | 13 | 7 | 64 |
-| last720d | 2024-11-01 | 2 | 71 | 24 | 29 | 15 | 92 |
+| 30d | 2026-09-23 | 0 | 0 | 8 | 0 | 0 | 2 |
+| last60d | 2026-08-24 | 2 | 7 | 20 | 1 | 3 | 22 |
+| 90d | 2026-07-25 | 2 | 15 | 21 | 2 | 3 | 27 |
+| last180d | 2026-04-26 | 2 | 27 | 23 | 5 | 6 | 45 |
+| 360d | 2025-10-28 | 2 | 57 | 24 | 13 | 7 | 64 |
+| last720d | 2024-11-02 | 2 | 71 | 24 | 29 | 15 | 92 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/pgcli) 上共有 **91** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**62** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `4.7.1` | ✅ latest |
+| Debian 14 | `4.7.1` | ✅ latest |
+| Debian 13 | `4.3.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.4.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.0.1` | ⚠️ outdated |
+| Arch | `4.7.1` | ✅ latest |
+| Homebrew | `4.7.1` | ✅ latest |
+| Fedora rawhide | `4.7.1` | ✅ latest |
+| Nix unstable | `4.7.1` | ✅ latest |
+| Void | `4.6.0` | ⚠️ outdated |
+| Alpine edge | `4.7.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -73,4 +91,4 @@ pgcli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:43:13Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:49:20Z._
