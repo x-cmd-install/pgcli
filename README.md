@@ -14,12 +14,12 @@ x install pgcli
 
 ## Code insight
 
-Total: **14,679** lines of code across **92** files in the top 5 languages.
+Total: **14,787** lines of code across **92** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 12,062 | 692 | 2,646 | 76 |
-| ReStructuredText | 1,493 | 0 | 482 | 3 |
+| Python | 12,164 | 692 | 2,685 | 76 |
+| ReStructuredText | 1,499 | 0 | 483 | 3 |
 | Json | 631 | 0 | 0 | 1 |
 | Gherkin | 262 | 0 | 42 | 11 |
 | Toml | 114 | 10 | 13 | 1 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.7.1` (2026-09-20)
-- **Last commit**: 2026-10-15
+- **Last commit**: 2026-10-24
 
 ## Popularity
 
-- **Stars**: 13,422 · **Forks**: 613 · **Open issues**: 747 · **Contributors**: 194
+- **Stars**: 13,423 · **Forks**: 612 · **Open issues**: 747 · **Contributors**: 196
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 753 · **Open PRs**: 26 · **Closed issues**: 720 · **Open issues**: 27 · **Commits**: 2460
+- **Releases**: 2 · **Merged PRs**: 755 · **Open PRs**: 24 · **Closed issues**: 720 · **Open issues**: 27 · **Commits**: 2462
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 0 | 0 | 8 | 0 | 0 | 2 |
-| last60d | 2026-08-25 | 2 | 7 | 20 | 1 | 3 | 22 |
-| 90d | 2026-07-26 | 2 | 15 | 21 | 2 | 3 | 27 |
-| last180d | 2026-04-27 | 2 | 27 | 23 | 5 | 6 | 45 |
-| 360d | 2025-10-29 | 2 | 57 | 24 | 12 | 7 | 64 |
-| last720d | 2024-11-03 | 2 | 71 | 24 | 29 | 15 | 92 |
+| 30d | 2026-09-25 | 0 | 1 | 7 | 0 | 0 | 4 |
+| last60d | 2026-08-26 | 2 | 7 | 19 | 1 | 3 | 17 |
+| 90d | 2026-07-27 | 2 | 17 | 19 | 2 | 3 | 29 |
+| last180d | 2026-04-28 | 2 | 29 | 21 | 5 | 6 | 46 |
+| 360d | 2025-10-30 | 2 | 59 | 22 | 12 | 7 | 66 |
+| last720d | 2024-11-04 | 2 | 73 | 22 | 29 | 15 | 94 |
 
 ## Distribution status
 
@@ -91,4 +91,4 @@ Install metadata for pgcli lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T05:24:13Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T05:28:58Z._
