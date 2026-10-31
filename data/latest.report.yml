@@ -7,7 +7,7 @@ about:
   latestVersion: "v4.7.1"
   latestRelease: "v4.7.1"
   latestPrerelease: ""
-  collectedAt: 2026-10-30T06:46:41Z
+  collectedAt: 2026-10-31T06:32:38Z
 timeline:
   created: 2014-10-12
   lastCommit: 2026-10-24
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-09-20
   lastPrerelease: 
 popularity:
-  star: 13426
+  star: 13427
   watcher: 137
   fork: 615
   release: 2
@@ -30,7 +30,7 @@ language:
 totalBytes: 554265
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 0
     mergedPR: 1
     openPR: 7
@@ -38,15 +38,15 @@ recent:
     openIssue: 0
     commit: 4
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 2
     mergedPR: 5
     openPR: 19
     closedIssue: 0
-    openIssue: 3
+    openIssue: 2
     commit: 17
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 2
     mergedPR: 17
     openPR: 19
@@ -54,7 +54,7 @@ recent:
     openIssue: 3
     commit: 29
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 2
     mergedPR: 28
     openPR: 21
@@ -62,7 +62,7 @@ recent:
     openIssue: 6
     commit: 46
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 2
     mergedPR: 58
     openPR: 22
@@ -70,7 +70,7 @@ recent:
     openIssue: 7
     commit: 66
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 2
     mergedPR: 73
     openPR: 22
@@ -86,7 +86,7 @@ total:
   commit: 2462
 ---
 path: /home/runner/.x-repo/github.com/dbcli/pgcli
-collectedAt: 2026-10-30T06:46:43Z
+collectedAt: 2026-10-31T06:32:40Z
 loc:
   Python:
     code: 12164
