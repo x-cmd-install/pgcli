@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 755 · **Open PRs**: 24 · **Closed issues**: 720 · **Open issues**: 27 · **Commits**: 2462
+- **Releases**: 2 · **Merged PRs**: 755 · **Open PRs**: 25 · **Closed issues**: 720 · **Open issues**: 27 · **Commits**: 2462
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 1 | 7 | 0 | 0 | 4 |
-| last60d | 2026-09-01 | 2 | 5 | 19 | 0 | 2 | 17 |
-| 90d | 2026-08-02 | 2 | 17 | 19 | 2 | 3 | 29 |
-| last180d | 2026-05-04 | 2 | 28 | 21 | 3 | 6 | 46 |
-| 360d | 2025-11-05 | 2 | 58 | 22 | 12 | 7 | 66 |
-| last720d | 2024-11-10 | 2 | 73 | 22 | 29 | 15 | 94 |
+| 30d | 2026-10-02 | 0 | 1 | 8 | 0 | 0 | 4 |
+| last60d | 2026-09-02 | 2 | 5 | 20 | 0 | 2 | 13 |
+| 90d | 2026-08-03 | 2 | 17 | 20 | 2 | 3 | 26 |
+| last180d | 2026-05-05 | 2 | 28 | 22 | 3 | 6 | 42 |
+| 360d | 2025-11-06 | 2 | 58 | 23 | 11 | 7 | 66 |
+| last720d | 2024-11-11 | 2 | 73 | 23 | 29 | 15 | 94 |
 
 ## Distribution status
 
@@ -91,4 +91,4 @@ Install metadata for pgcli lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:32:57Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T07:07:06Z._
