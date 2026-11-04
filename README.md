@@ -14,12 +14,12 @@ x install pgcli
 
 ## Code insight
 
-Total: **14,787** lines of code across **92** files in the top 5 languages.
+Total: **14,793** lines of code across **92** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 12,164 | 692 | 2,685 | 76 |
-| ReStructuredText | 1,499 | 0 | 483 | 3 |
+| Python | 12,164 | 693 | 2,685 | 76 |
+| ReStructuredText | 1,505 | 0 | 484 | 3 |
 | Json | 631 | 0 | 0 | 1 |
 | Gherkin | 262 | 0 | 42 | 11 |
 | Toml | 114 | 10 | 13 | 1 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.7.1` (2026-09-20)
-- **Last commit**: 2026-10-24
+- **Last commit**: 2026-11-03
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 755 · **Open PRs**: 25 · **Closed issues**: 720 · **Open issues**: 27 · **Commits**: 2462
+- **Releases**: 2 · **Merged PRs**: 756 · **Open PRs**: 24 · **Closed issues**: 720 · **Open issues**: 27 · **Commits**: 2463
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 1 | 8 | 0 | 0 | 4 |
-| last60d | 2026-09-04 | 2 | 5 | 19 | 0 | 2 | 13 |
-| 90d | 2026-08-05 | 2 | 17 | 20 | 2 | 3 | 26 |
-| last180d | 2026-05-07 | 2 | 28 | 22 | 2 | 6 | 42 |
-| 360d | 2025-11-08 | 2 | 58 | 23 | 11 | 7 | 66 |
-| last720d | 2024-11-13 | 2 | 73 | 23 | 28 | 15 | 94 |
+| 30d | 2026-10-05 | 0 | 2 | 7 | 0 | 0 | 5 |
+| last60d | 2026-09-05 | 2 | 6 | 18 | 0 | 2 | 14 |
+| 90d | 2026-08-06 | 2 | 18 | 19 | 2 | 3 | 27 |
+| last180d | 2026-05-08 | 2 | 29 | 21 | 2 | 6 | 43 |
+| 360d | 2025-11-09 | 2 | 59 | 22 | 11 | 7 | 67 |
+| last720d | 2024-11-14 | 2 | 74 | 22 | 28 | 15 | 95 |
 
 ## Distribution status
 
@@ -91,4 +91,4 @@ Install metadata for pgcli lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:49:06Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:21:30Z._
