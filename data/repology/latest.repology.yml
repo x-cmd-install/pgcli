@@ -1,5 +1,19 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 4.3.0
+  origversion: 4.3.0-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - lhw@ring0.de
+  categories:
+    - database
+- repo: kali_rolling
+  subrepo: main
   srcname: pgcli
   binnames:
     - pgcli
@@ -7,34 +21,6 @@
   version: 4.7.1
   origversion: 4.7.1-1
   status: newest
-  maintainers:
-    - daniel@debian.org
-    - lhw@ring0.de
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 4.3.0
-  origversion: 4.3.0-2
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-    - lhw@ring0.de
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 4.3.0
-  origversion: 4.3.0-2
-  status: outdated
   maintainers:
     - daniel@debian.org
     - lhw@ring0.de
@@ -53,109 +39,6 @@
     - lhw@ring0.de
   categories:
     - database
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 4.3.0
-  origversion: 4.3.0-2
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-    - lhw@ring0.de
-  categories:
-    - database
-- repo: pypi
-  srcname: pgcli
-  binname: pgcli
-  visiblename: pgcli
-  version: 4.7.1
-  origversion: null
-  status: newest
-  summary: CLI for Postgres Database. With auto-completion and syntax highlighting.
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 3.5.0
-  origversion: 3.5.0-5
-  status: outdated
-  maintainers:
-    - daniel.baumann@progress-linux.org
-    - lhw@ring0.de
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 4.3.0
-  origversion: 4.3.0-2
-  status: outdated
-  maintainers:
-    - daniel@debian.org
-    - lhw@ring0.de
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 4.7.1
-  origversion: 4.7.1-1
-  status: newest
-  maintainers:
-    - daniel@debian.org
-    - lhw@ring0.de
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 4.7.1
-  origversion: 4.7.1-1
-  status: newest
-  maintainers:
-    - daniel@debian.org
-    - lhw@ring0.de
-  categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 1.9.1
-  origversion: 1.9.1-3+deb10u1
-  status: outdated
-  maintainers:
-    - lhw@ring0.de
-- repo: debian_14
-  subrepo: forky/main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 4.7.1
-  origversion: 4.7.1-1
-  status: newest
-  maintainers:
-    - daniel@debian.org
-    - lhw@ring0.de
-  categories:
-    - misc
 - repo: alpine_3_17
   subrepo: community
   srcname: pgcli
@@ -221,6 +104,20 @@
     - omni+alpine@hack.org
   licenses:
     - BSD-3-Clause
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 4.7.1
+  origversion: 4.7.1-1
+  status: newest
+  maintainers:
+    - daniel@debian.org
+    - lhw@ring0.de
+  categories:
+    - misc
 - repo: alpine_3_20
   subrepo: community
   srcname: pgcli
@@ -455,6 +352,45 @@
     - lhw@ring0.de
   categories:
     - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 4.7.1
+  origversion: 4.7.1-1
+  status: newest
+  maintainers:
+    - daniel@debian.org
+    - lhw@ring0.de
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 4.7.1
+  origversion: 4.7.1-1
+  status: newest
+  maintainers:
+    - daniel@debian.org
+    - lhw@ring0.de
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 1.9.1
+  origversion: 1.9.1-3+deb10u1
+  status: outdated
+  maintainers:
+    - lhw@ring0.de
 - repo: deepin_25
   subrepo: community
   srcname: pgcli
@@ -515,21 +451,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: pgcli
-  binnames:
-    - pgcli
-    - python3-pgcli+keyring
-  visiblename: pgcli
-  version: 4.0.1
-  origversion: 4.0.1-7.fc41
-  status: legacy
-  summary: CLI for Postgres Database. With auto-completion and syntax highlighting
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: pgcli
   binnames:
@@ -539,6 +460,21 @@
   version: 4.2.0
   origversion: 4.2.0-1.fc41
   status: outdated
+  summary: CLI for Postgres Database. With auto-completion and syntax highlighting
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: pgcli
+  binnames:
+    - pgcli
+    - python3-pgcli+keyring
+  visiblename: pgcli
+  version: 4.0.1
+  origversion: 4.0.1-7.fc41
+  status: legacy
   summary: CLI for Postgres Database. With auto-completion and syntax highlighting
   licenses:
     - BSD-3-Clause
@@ -576,6 +512,21 @@
   categories:
     - Unspecified
 - repo: fedora_43
+  subrepo: release
+  srcname: pgcli
+  binnames:
+    - pgcli
+    - python3-pgcli+keyring
+  visiblename: pgcli
+  version: 4.3.0
+  origversion: 4.3.0-5.fc43
+  status: legacy
+  summary: CLI for Postgres Database. With auto-completion and syntax highlighting
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_43
   subrepo: updates
   srcname: pgcli
   binnames:
@@ -586,21 +537,6 @@
   version: 4.7.1
   origversion: 4.7.1-1.fc43
   status: newest
-  summary: CLI for Postgres Database. With auto-completion and syntax highlighting
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: pgcli
-  binnames:
-    - pgcli
-    - python3-pgcli+keyring
-  visiblename: pgcli
-  version: 4.3.0
-  origversion: 4.3.0-5.fc43
-  status: legacy
   summary: CLI for Postgres Database. With auto-completion and syntax highlighting
   licenses:
     - BSD-3-Clause
@@ -666,20 +602,6 @@
     - sunpoet@freebsd.org
   categories:
     - databases
-- repo: nix_stable_24_11
-  srcname: python311Packages.pgcli
-  visiblename: python3.11-pgcli
-  version: 4.1.0
-  origversion: null
-  status: outdated
-  summary: Command-line interface for PostgreSQL
-  maintainers:
-    - dywedir@gra.red
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - python311Packages
 - repo: gentoo
   srcname: dev-db/pgcli
   visiblename: dev-db/pgcli
@@ -709,20 +631,6 @@
   origversion: null
   status: newest
   summary: CLI for Postgres with auto-completion and syntax highlighting
-- repo: kali_rolling
-  subrepo: main
-  srcname: pgcli
-  binnames:
-    - pgcli
-  visiblename: pgcli
-  version: 4.7.1
-  origversion: 4.7.1-1
-  status: newest
-  maintainers:
-    - daniel@debian.org
-    - lhw@ring0.de
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: dev-db/pgcli
   visiblename: dev-db/pgcli
@@ -784,23 +692,23 @@
   srcname: pgcli
   binname: pgcli
   visiblename: pgcli
-  version: 3.5.0
-  origversion: 3.5.0-2
-  status: outdated
+  version: 4.7.1
+  origversion: 4.7.1-1
+  status: newest
   summary: A command line interface for PostgreSQL with auto-completion and syntax highlighting
   licenses:
-    - BSD
+    - BSD-3-Clause
 - repo: manjaro_testing
   subrepo: extra
   srcname: pgcli
   binname: pgcli
   visiblename: pgcli
-  version: 3.5.0
-  origversion: 3.5.0-2
-  status: outdated
+  version: 4.7.1
+  origversion: 4.7.1-1
+  status: newest
   summary: A command line interface for PostgreSQL with auto-completion and syntax highlighting
   licenses:
-    - BSD
+    - BSD-3-Clause
 - repo: manjaro_unstable
   subrepo: extra
   srcname: pgcli
@@ -825,6 +733,20 @@
   licenses:
     - BSD-3-Clause
 - repo: nix_stable_24_05
+  srcname: python312Packages.pgcli
+  visiblename: python3.12-pgcli
+  version: 4.0.1
+  origversion: null
+  status: outdated
+  summary: Command-line interface for PostgreSQL
+  maintainers:
+    - dywedir@gra.red
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - python312Packages
+- repo: nix_stable_24_05
   srcname: python311Packages.pgcli
   visiblename: python3.11-pgcli
   version: 4.0.1
@@ -838,10 +760,10 @@
     - BSD-3-Clause
   categories:
     - python311Packages
-- repo: nix_stable_24_05
+- repo: nix_stable_24_11
   srcname: python312Packages.pgcli
   visiblename: python3.12-pgcli
-  version: 4.0.1
+  version: 4.1.0
   origversion: null
   status: outdated
   summary: Command-line interface for PostgreSQL
@@ -865,8 +787,8 @@
   licenses:
     - BSD-3-Clause
 - repo: nix_stable_24_11
-  srcname: python312Packages.pgcli
-  visiblename: python3.12-pgcli
+  srcname: python311Packages.pgcli
+  visiblename: python3.11-pgcli
   version: 4.1.0
   origversion: null
   status: outdated
@@ -877,21 +799,7 @@
   licenses:
     - BSD-3-Clause
   categories:
-    - python312Packages
-- repo: nix_stable_25_05
-  srcname: python313Packages.pgcli
-  visiblename: python3.13-pgcli
-  version: 4.3.0
-  origversion: null
-  status: outdated
-  summary: Command-line interface for PostgreSQL
-  maintainers:
-    - dywedir@gra.red
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - python313Packages
+    - python311Packages
 - repo: nix_stable_25_05
   srcname: python312Packages.pgcli
   visiblename: python3.12-pgcli
@@ -918,7 +826,7 @@
     - sandro.jaeckel@gmail.com
   licenses:
     - BSD-3-Clause
-- repo: nix_stable_25_11
+- repo: nix_stable_25_05
   srcname: python313Packages.pgcli
   visiblename: python3.13-pgcli
   version: 4.3.0
@@ -926,22 +834,12 @@
   status: outdated
   summary: Command-line interface for PostgreSQL
   maintainers:
+    - dywedir@gra.red
     - sandro.jaeckel@gmail.com
   licenses:
     - BSD-3-Clause
   categories:
     - python313Packages
-- repo: nix_stable_25_11
-  srcname: pgcli
-  visiblename: pgcli
-  version: 4.3.0
-  origversion: null
-  status: outdated
-  summary: Command-line interface for PostgreSQL
-  maintainers:
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - BSD-3-Clause
 - repo: nix_stable_25_11
   srcname: python312Packages.pgcli
   visiblename: python3.12-pgcli
@@ -955,10 +853,21 @@
     - BSD-3-Clause
   categories:
     - python312Packages
-- repo: nix_stable_26_05
-  srcname: python313Packages.pgcli
+- repo: nix_stable_25_11
+  srcname: pgcli
   visiblename: pgcli
-  version: 4.4.0
+  version: 4.3.0
+  origversion: null
+  status: outdated
+  summary: Command-line interface for PostgreSQL
+  maintainers:
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_11
+  srcname: python313Packages.pgcli
+  visiblename: python3.13-pgcli
+  version: 4.3.0
   origversion: null
   status: outdated
   summary: Command-line interface for PostgreSQL
@@ -980,7 +889,7 @@
   licenses:
     - BSD-3-Clause
 - repo: nix_stable_26_05
-  srcname: python314Packages.pgcli
+  srcname: python313Packages.pgcli
   visiblename: pgcli
   version: 4.4.0
   origversion: null
@@ -991,13 +900,13 @@
   licenses:
     - BSD-3-Clause
   categories:
-    - python314Packages
-- repo: nix_unstable
+    - python313Packages
+- repo: nix_stable_26_05
   srcname: python314Packages.pgcli
   visiblename: pgcli
-  version: 4.7.1
+  version: 4.4.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Command-line interface for PostgreSQL
   maintainers:
     - sandro.jaeckel@gmail.com
@@ -1029,6 +938,19 @@
     - BSD-3-Clause
   categories:
     - python313Packages
+- repo: nix_unstable
+  srcname: python314Packages.pgcli
+  visiblename: pgcli
+  version: 4.7.1
+  origversion: null
+  status: newest
+  summary: Command-line interface for PostgreSQL
+  maintainers:
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - python314Packages
 - repo: parabola
   subrepo: extra
   srcname: pgcli
@@ -1040,6 +962,84 @@
   summary: A command line interface for PostgreSQL with auto-completion and syntax highlighting
   licenses:
     - BSD-3-Clause
+- repo: parrot
+  subrepo: parrot/main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 4.3.0
+  origversion: 4.3.0-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - lhw@ring0.de
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 4.3.0
+  origversion: 4.3.0-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - lhw@ring0.de
+  categories:
+    - misc
+- repo: pypi
+  srcname: pgcli
+  binname: pgcli
+  visiblename: pgcli
+  version: 4.7.1
+  origversion: null
+  status: newest
+  summary: CLI for Postgres Database. With auto-completion and syntax highlighting.
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 3.5.0
+  origversion: 3.5.0-5
+  status: outdated
+  maintainers:
+    - daniel.baumann@progress-linux.org
+    - lhw@ring0.de
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 4.3.0
+  origversion: 4.3.0-2
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - lhw@ring0.de
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 4.7.1
+  origversion: 4.7.1-1
+  status: newest
+  maintainers:
+    - daniel@debian.org
+    - lhw@ring0.de
+  categories:
+    - misc
 - repo: termux
   srcname: pgcli
   binname: pgcli
@@ -1161,6 +1161,20 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: pgcli
+  binnames:
+    - pgcli
+  visiblename: pgcli
+  version: 4.5.0
+  origversion: 4.5.0-1
+  status: outdated
+  maintainers:
+    - daniel@debian.org
+    - lhw@ring0.de
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: pgcli
   binnames:
     - pgcli
