@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,434 · **Forks**: 617 · **Open issues**: 747 · **Contributors**: 198
+- **Stars**: 13,435 · **Forks**: 617 · **Open issues**: 747 · **Contributors**: 198
 
 ## Totals (cumulative)
 
@@ -57,12 +57,30 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 4 | 11 | 0 | 0 | 5 |
-| last60d | 2026-09-09 | 2 | 6 | 20 | 0 | 2 | 14 |
-| 90d | 2026-08-10 | 2 | 20 | 23 | 2 | 3 | 29 |
-| last180d | 2026-05-12 | 2 | 28 | 25 | 2 | 6 | 43 |
-| 360d | 2025-11-13 | 2 | 61 | 26 | 11 | 7 | 68 |
-| last720d | 2024-11-18 | 2 | 76 | 26 | 28 | 15 | 97 |
+| 30d | 2026-10-10 | 0 | 4 | 11 | 0 | 0 | 5 |
+| last60d | 2026-09-10 | 2 | 6 | 20 | 0 | 2 | 14 |
+| 90d | 2026-08-11 | 2 | 20 | 23 | 2 | 3 | 29 |
+| last180d | 2026-05-13 | 2 | 28 | 25 | 2 | 6 | 43 |
+| 360d | 2025-11-14 | 2 | 61 | 26 | 11 | 7 | 68 |
+| last720d | 2024-11-19 | 2 | 76 | 26 | 28 | 15 | 97 |
+
+## Distribution status
+
+Reported by **93** distros on [repology.org](https://repology.org/project/pgcli). **24** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `4.7.1` | ✅ latest |
+| Debian 14 | `4.7.1` | ✅ latest |
+| Debian 13 | `4.3.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.4.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.0.1` | ⚠️ outdated |
+| Arch | `4.7.1` | ✅ latest |
+| Homebrew | `4.7.1` | ✅ latest |
+| Fedora rawhide | `4.7.1` | ✅ latest |
+| Nix unstable | `4.7.1` | ✅ latest |
+| Void | `4.6.0` | ⚠️ outdated |
+| Alpine edge | `4.7.1` | ✅ latest |
 
 ## Improve this data
 
@@ -73,4 +91,4 @@ Install metadata for pgcli lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:53:35Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:31:40Z._
