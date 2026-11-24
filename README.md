@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,456 · **Forks**: 621 · **Open issues**: 747 · **Contributors**: 198
+- **Stars**: 13,458 · **Forks**: 621 · **Open issues**: 747 · **Contributors**: 197
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 758 · **Open PRs**: 30 · **Closed issues**: 720 · **Open issues**: 27 · **Commits**: 2465
+- **Releases**: 2 · **Merged PRs**: 757 · **Open PRs**: 30 · **Closed issues**: 720 · **Open issues**: 27 · **Commits**: 2465
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 1 | 8 | 0 | 0 | 3 |
-| last60d | 2026-09-24 | 0 | 4 | 13 | 0 | 0 | 7 |
-| 90d | 2026-08-25 | 2 | 11 | 25 | 1 | 3 | 21 |
-| last180d | 2026-05-27 | 2 | 28 | 26 | 2 | 6 | 43 |
-| 360d | 2025-11-28 | 2 | 58 | 28 | 10 | 7 | 68 |
-| last720d | 2024-12-03 | 2 | 76 | 28 | 28 | 14 | 97 |
+| 30d | 2026-10-25 | 0 | 1 | 8 | 0 | 0 | 3 |
+| last60d | 2026-09-25 | 0 | 3 | 13 | 0 | 0 | 7 |
+| 90d | 2026-08-26 | 2 | 9 | 25 | 1 | 3 | 21 |
+| last180d | 2026-05-28 | 2 | 27 | 26 | 2 | 6 | 43 |
+| 360d | 2025-11-29 | 2 | 57 | 28 | 10 | 7 | 68 |
+| last720d | 2024-12-04 | 2 | 75 | 28 | 28 | 14 | 97 |
 
 ## Distribution status
 
@@ -91,4 +91,4 @@ Install metadata for pgcli lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T10:06:13Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:37:29Z._
